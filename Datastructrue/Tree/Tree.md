@@ -6,7 +6,7 @@
 >> - 树中有一个称为“ 根 ”的特殊节点用 r 表示；
 >> - 其余节点可以分为 m 个互不相交的有限集合T1，T2....Tn，其中每个集合本身又是一棵树，称为原来树的 “ 子树 ”。
 
-![](无标题.png)
+![](picture/无标题.png)
 
 ## 树的一些基本术语  
 >1. **节点的度**（Degree）：节点的子树个数  
@@ -21,26 +21,26 @@
 >10. **节点的层次（Level）**：规定根节点的层数为 *1* 层其他任意节点的层数为其**父节点的层数加一**
 >11. **树的深度（Depth）**：树中所有节点中的**最大层次**就是这颗树的最大层
 
-![](Tree.png)
+![](picture/Tree.png)
 
 # 二叉树
 
 > 二叉树是一个又穷的节点集合，这个集合可以为空，若不为空，则它是由 **根节点** 和称其为 **左子树** 和 **右子树** 的两个互不相交的二叉树组成。
 > - 二叉树有具体的五种基本形态
-> ![](BintreeBasic.png)
+> ![](picture/BintreeBasic.png)
 > -二叉树也有左右之分
-> ![](TreeBasic.png)
+> ![](picture/TreeBasic.png)
 
 ## 特殊的二叉树
 
 > **斜二叉树（Skewed Binary Tree）**
 > 
 >> 斜二叉树的结构最差，它已经退化为线性表了
->> ![](SkewedBinaryTree.png)
+>> ![](picture/SkewedBinaryTree.png)
 > **完美二叉树（perfectBinaryTree）**
 > -所有分支节点都存在左子树和右子树，并且所有叶节点都在同一层上
 > 
->> ![](PerfectBinaryTree.png)
+>> ![](picture/PerfectBinaryTree.png)
 > **完全二叉树（CompleteBinaryTree）**
 > -有n个节点的二叉树，对树中结点按从上自下，从左自右顺序进行编号，编号为 *i* 的结点与满二叉树中编号 *i* 结点在二叉树中位置相同
 
